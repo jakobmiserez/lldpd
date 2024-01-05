@@ -268,7 +268,7 @@ void send_fd(enum priv_context, int);
 
 #ifndef ETH_P_LLDP
 //#  define ETH_P_LLDP 0x88cc
-#define ETH_P_LLDP 0x88ce
+#define ETH_P_LLDP 0x86dd
 #endif
 #define LLDPD_FILTER_F                                                                 \
   { 0x30, 0, 0, 0x00000000 }, { 0x54, 0, 0, 0x00000001 }, { 0x15, 0, 16, 0x00000001 }, \
